@@ -1,0 +1,2 @@
+com_tool:key_vel_publisher
+-DCATKIN_DEVEL_PREFIX=/home/atom/wins/catkin_comtool/devel -DCMAKE_INSTALL_PREFIX=/home/atom/wins/catkin_comtool/install -G Unix Makefiles

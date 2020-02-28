@@ -1,0 +1,8 @@
+prefix=/home/atom/wins/catkin_comtool/devel
+
+Name: com_tool
+Description: Description of com_tool
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

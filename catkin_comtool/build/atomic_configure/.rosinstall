@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/atom/wins/catkin_comtool/devel/setup.sh

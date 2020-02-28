@@ -1,0 +1,8 @@
+prefix=/home/atom/wins/catkin_comtool/install
+
+Name: key_vel_publisher
+Description: Description of key_vel_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
