@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/atom/wins/catkin_comtool/build"
+export CMAKE_PREFIX_PATH="/home/atom/wins/KeyCarRosTest/catkin_comtool/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/atom/wins/KeyCarRosTest/catkin_comtool/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/atom/wins/KeyCarRosTest/catkin_comtool/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/atom/wins/KeyCarRosTest/catkin_comtool/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/atom/wins/KeyCarRosTest/catkin_comtool/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/atom/wins/catkin_comtool/src:/home/atom/wins/KeyCarRosTest/catkin_comtool/src:$ROS_PACKAGE_PATH"

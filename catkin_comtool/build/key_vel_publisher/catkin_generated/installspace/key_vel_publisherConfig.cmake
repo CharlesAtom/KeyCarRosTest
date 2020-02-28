@@ -67,14 +67,14 @@ set(key_vel_publisher_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(key_vel_publisher_SOURCE_PREFIX /home/atom/wins/catkin_comtool/src/key_vel_publisher)
-  set(key_vel_publisher_DEVEL_PREFIX /home/atom/wins/catkin_comtool/devel)
+  set(key_vel_publisher_SOURCE_PREFIX /home/atom/wins/KeyCarRosTest/catkin_comtool/src/key_vel_publisher)
+  set(key_vel_publisher_DEVEL_PREFIX /home/atom/wins/KeyCarRosTest/catkin_comtool/devel)
   set(key_vel_publisher_INSTALL_PREFIX "")
   set(key_vel_publisher_PREFIX ${key_vel_publisher_DEVEL_PREFIX})
 else()
   set(key_vel_publisher_SOURCE_PREFIX "")
   set(key_vel_publisher_DEVEL_PREFIX "")
-  set(key_vel_publisher_INSTALL_PREFIX /home/atom/wins/catkin_comtool/install)
+  set(key_vel_publisher_INSTALL_PREFIX /home/atom/wins/KeyCarRosTest/catkin_comtool/install)
   set(key_vel_publisher_PREFIX ${key_vel_publisher_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/atom/wins/catkin_comtool/install/lib;/home/atom/wins/catkin_comtool/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/atom/wins/KeyCarRosTest/catkin_comtool/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

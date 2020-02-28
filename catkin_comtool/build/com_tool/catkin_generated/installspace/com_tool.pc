@@ -1,4 +1,4 @@
-prefix=/home/atom/wins/catkin_comtool/install
+prefix=/home/atom/wins/KeyCarRosTest/catkin_comtool/install
 
 Name: com_tool
 Description: Description of com_tool

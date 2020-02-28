@@ -1,2 +1,2 @@
-com_tool:key_vel_publisher
--DCATKIN_DEVEL_PREFIX=/home/atom/wins/catkin_comtool/devel -DCMAKE_INSTALL_PREFIX=/home/atom/wins/catkin_comtool/install -G Unix Makefiles
+com_tool:key_vel_publisher:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/atom/wins/KeyCarRosTest/catkin_comtool/devel -DCMAKE_INSTALL_PREFIX=/home/atom/wins/KeyCarRosTest/catkin_comtool/install -G Unix Makefiles

@@ -1,4 +1,4 @@
-prefix=/home/atom/wins/catkin_comtool/devel
+prefix=/home/atom/wins/KeyCarRosTest/catkin_comtool/devel
 
 Name: key_vel_publisher
 Description: Description of key_vel_publisher

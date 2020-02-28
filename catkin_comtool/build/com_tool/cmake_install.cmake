@@ -1,8 +1,8 @@
-# Install script for directory: /home/atom/wins/catkin_comtool/src/com_tool
+# Install script for directory: /home/atom/wins/KeyCarRosTest/catkin_comtool/src/com_tool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/atom/wins/catkin_comtool/install")
+  set(CMAKE_INSTALL_PREFIX "/home/atom/wins/KeyCarRosTest/catkin_comtool/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/atom/wins/catkin_comtool/build/com_tool/catkin_generated/installspace/com_tool.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/atom/wins/KeyCarRosTest/catkin_comtool/build/com_tool/catkin_generated/installspace/com_tool.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/com_tool/cmake" TYPE FILE FILES
-    "/home/atom/wins/catkin_comtool/build/com_tool/catkin_generated/installspace/com_toolConfig.cmake"
-    "/home/atom/wins/catkin_comtool/build/com_tool/catkin_generated/installspace/com_toolConfig-version.cmake"
+    "/home/atom/wins/KeyCarRosTest/catkin_comtool/build/com_tool/catkin_generated/installspace/com_toolConfig.cmake"
+    "/home/atom/wins/KeyCarRosTest/catkin_comtool/build/com_tool/catkin_generated/installspace/com_toolConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/com_tool" TYPE FILE FILES "/home/atom/wins/catkin_comtool/src/com_tool/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/com_tool" TYPE FILE FILES "/home/atom/wins/KeyCarRosTest/catkin_comtool/src/com_tool/package.xml")
 endif()
 

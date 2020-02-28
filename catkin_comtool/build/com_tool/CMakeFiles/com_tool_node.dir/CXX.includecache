@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/atom/wins/catkin_comtool/src/com_tool/src/com_tool_node.cpp
+/home/atom/wins/KeyCarRosTest/catkin_comtool/src/com_tool/src/com_tool_node.cpp
 ros/ros.h
 -
 serial/serial.h

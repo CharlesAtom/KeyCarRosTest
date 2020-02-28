@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "key_vel_publisher"
-PROJECT_SPACE_DIR = "/home/atom/wins/catkin_comtool/devel"
+PROJECT_SPACE_DIR = "/home/atom/wins/KeyCarRosTest/catkin_comtool/devel"
 PROJECT_VERSION = "0.0.0"
